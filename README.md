@@ -18,7 +18,7 @@ Replica filter capacitor boards have been developed as well:
 1. niclasf's board: https://foogadgets.blogspot.com/2020/05/yamaha-cr2020-repair.html (To get one, contact niclasf on AK, or use his web store at https://www.facebook.com/foogadgets/)
 1. jayfree's board: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-4#post-14139270))
 
-Jayfree also designed a modern two-layer replacement for the relay board, you can use that instead of this one
+Jayfree also designed a replacement for the relay board. It's a modern two-layer design instead of a reproduction of the original PCB: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-5#post-14284775))
 
 ### Caution & Advice
 

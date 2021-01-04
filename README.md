@@ -2,7 +2,10 @@
 
 This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the power supply of a Yamaha CR-2020 reciever. It's hoped that this replica board can breathe new life into CR-2020s that may not otherwise be repairable. 
 
+![Finished Board](img/board_populated.jpg?raw=true "Finished Board")
+
 [Board Front](img/board_front.jpg)
+[Board Rear](img/board_rear.jpg)
 
 ## Summary
 

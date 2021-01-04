@@ -4,8 +4,9 @@ This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the po
 
 ![Finished Board](img/board_populated.jpg?raw=true "Finished Board")
 
-[Board Front](img/board_front.jpg)
-[Board Rear](img/board_rear.jpg)
+[Front Detail](img/board_front.jpg?raw=true)
+
+[Rear Detail](img/board_rear.jpg?raw=true)
 
 ## Summary
 

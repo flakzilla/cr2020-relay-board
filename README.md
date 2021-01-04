@@ -22,10 +22,8 @@ Jayfree also designed a replacement for the relay board. It's a modern two-layer
 
 ### Caution & Advice
 
-* Depending on your skill level, replacing the relay board can take many hours of effort.
-* The entire process from start to finish is somewhat expensive depending on the prices you can get for the components.
-* There are some small differences between certain model years, but as far as I can tell, this board should work for any model year. Check your CR-2020 carefully before trying to use this reproduction board.
-* Carefully follow the instructions for producing the PCB. At least 2oz copper is required!
+* There are some small differences between model years, but as far as I can tell, this board should work for any model year. **Check your CR-2020's power supply carefully** before trying to use this reproduction board.
+* At least 2oz copper is required for the PCB.
 * A lead forming tool is helpful for assembling the board.
 
 In general, you should read this thread on AK before going ahead: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/
@@ -42,20 +40,26 @@ Want to make one? Here's what to do:
 1. Install the board
 
 ### Step 1: Order PCB
-Recommend using the gerber files from this project to JLCPCB. Go to https://jlcpcb.com/ and get a quote.
+Recommend using JLCPCB (https://jlcpcb.com/).
 
-Upload the gerber files 
+Prepared gerber files for this board: [Gerbers, CAD v1.0](CR-2020 relay board LC-67183-1/gerber zips/CR2020 relay board LC-67183-1 v1.0.zip)
 
-
+In the quote, specify 1.6mm PCB thickness (this should be the default) and **2oz copper weight**. Thicker copper is mandatory due to high current handled thru the relay.
 
 ### Step 2: Order Parts
-TBD
+The BOM is here:
+* [ODS Format](CR-2020 relay board LC-67183-1/BOM/BOM.ods)
+* [Excel Format](CR-2020 relay board LC-67183-1/BOM/BOM.xlsx)
+
+Carefully read and understand the notes in the BOM sheet. Check everything against your own CR-2020.
 
 ### Step 3: Assemble
-TBD
+Populate the board.
+
+[Reference materials](CR-2020 relay board LC-67183-1/reference/)
 
 ### Step 4: Install
-TBD
+Install the new PCB and check that everything works.
 
 ## License
 

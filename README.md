@@ -10,19 +10,27 @@ This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the po
 
 ## Summary
 
-This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM (parts listing) is included, including modern part substitutions where original parts may not be available.
+This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM (parts listing) is included, including modern part substitutions where original parts may not be available. Instructions for ordering your own copies of the board from PCB manufacturer JLCPCB are included below.
 
 Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical improvements.
 
-If your 
+Replica filter capacitor boards have been developed as well:
+1. niclasf's board: https://foogadgets.blogspot.com/2020/05/yamaha-cr2020-repair.html (To get one, contact niclasf on AK, or use his web store at https://www.facebook.com/foogadgets/)
+1. jayfree's board: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-4#post-14139270))
+
+Jayfree also designed a modern two-layer replacement for the relay board, you can use that instead of this one
 
 ### Caution & Advice
 
 * Depending on your skill level, replacing the relay board can take many hours of effort.
-* The entire process from start to finish is somewhat expensive.
+* The entire process from start to finish is somewhat expensive depending on the prices you can get for the components.
 * There are some small differences between certain model years, but as far as I can tell, this board should work for any model year. Check your CR-2020 carefully before trying to use this reproduction board.
 * Carefully follow the instructions for producing the PCB. At least 2oz copper is required!
 * A lead forming tool is helpful for assembling the board.
+
+In general, you should read this thread on AK before going ahead: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/
+
+NOTE: the board uses silkscreen text that is too small. JLCPCB will manufacture it, but the results won't be perfect. A PDF export of the silkscreen markings is included for reference.
 
 ## How-To
 
@@ -34,7 +42,11 @@ Want to make one? Here's what to do:
 1. Install the board
 
 ### Step 1: Order PCB
-TBD
+Recommend using the gerber files from this project to JLCPCB. Go to https://jlcpcb.com/ and get a quote.
+
+Upload the gerber files 
+
+
 
 ### Step 2: Order Parts
 TBD

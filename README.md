@@ -2,7 +2,7 @@
 
 This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the power supply of a Yamaha CR-2020 reciever. It's hoped that this replica board can breathe new life into CR-2020s that may not otherwise be repairable. 
 
-(insert picture here)
+[Board Front](img/board_front.jpg)
 
 ## Summary
 
@@ -10,9 +10,11 @@ This project faithfully recreates the original board based on a sample LC-67183-
 
 Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical improvements.
 
+If your 
+
 ### Caution & Advice
 
-* Depending on your skill level, replacing the power supply board can take many hours.
+* Depending on your skill level, replacing the relay board can take many hours of effort.
 * The entire process from start to finish is somewhat expensive.
 * There are some small differences between certain model years, but as far as I can tell, this board should work for any model year. Check your CR-2020 carefully before trying to use this reproduction board.
 * Carefully follow the instructions for producing the PCB. At least 2oz copper is required!

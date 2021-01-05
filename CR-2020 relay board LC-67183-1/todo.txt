@@ -1,0 +1,5 @@
+- increase text size for silkscreen
+- increase TR712/715 pad size for better physical strength
+- fix hole in rear trace footprint under 100/35 near D710/D712
+- orient vertical text to the right, so it's pointed the right way to be legible when board is installed
+- Add markings for NB+/-

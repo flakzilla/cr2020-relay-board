@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name relayboard)(type KiCad)(uri ${KIPRJMOD}/relayboard.pretty)(options "")(descr ""))
+  (lib (name relayboard2)(type KiCad)(uri ${KIPRJMOD}/relayboard2.pretty)(options "")(descr ""))
+)

@@ -10,34 +10,31 @@ This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the po
 
 ## Summary
 
-This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM (parts listing) is included, including modern part substitutions where original parts may not be available. Instructions for ordering your own copies of the board from PCB manufacturer JLCPCB are included below.
+This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM is provided, including modern part substitutions where original parts may not be available. Instructions for ordering copies of the board from JLCPCB are included below.
 
-Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical improvements.
+Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical changes.
 
 Replica filter capacitor boards have been developed as well:
 1. niclasf's board: https://foogadgets.blogspot.com/2020/05/yamaha-cr2020-repair.html (To get one, contact niclasf on AK, or use his web store at https://www.facebook.com/foogadgets/)
 1. jayfree's board: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-4#post-14139270))
 
-Jayfree also designed a replacement for the relay board. It's a modern two-layer design instead of a reproduction of the original PCB: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-5#post-14284775))
+Jayfree also designed a replacement for the relay board. It's a modernized two-layer design instead of a reproduction of the original PCB: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-5#post-14284775))
 
 ### Caution & Advice
 
 * There are some small differences between model years, but as far as I can tell, this board should work for any model year. **Check your CR-2020's power supply carefully** before trying to use this reproduction board.
 * At least 2oz copper is required for the PCB.
-* A lead forming tool is helpful for assembling the board.
+* The board uses silkscreen text that is too small. JLCPCB will manufacture it, but the results won't be perfect. A PDF export of the silkscreen markings is included for reference.
 
 In general, you should read this thread on AK before going ahead: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/
-
-NOTE: the board uses silkscreen text that is too small. JLCPCB will manufacture it, but the results won't be perfect. A PDF export of the silkscreen markings is included for reference.
 
 ## How-To
 
 ### Summary
 Want to make one? Here's what to do:
-1. Using the CAD files from this page, order a relay board from a PCB manufacturer (such as JLCPCB)
-1. Order the parts from an electronics supplier (e.g. mouser or digikey)
-1. Assemble the board
-1. Install the board
+1. Using the CAD files from this page, order a copy of the relay board from a PCB manufacturer (such as JLCPCB)
+1. Order the necessary parts from an electronics supplier (mouser, digikey, etc), and recover components for reuse from the old board
+1. Assemble
 
 ### Step 1: Order PCB
 Recommend using JLCPCB (https://jlcpcb.com/).
@@ -46,20 +43,15 @@ Prepared gerber files for this board: [Gerbers, CAD v1.0](CR-2020 relay board LC
 
 In the quote, specify 1.6mm PCB thickness (this should be the default) and **2oz copper weight**. Thicker copper is mandatory due to high current handled thru the relay.
 
-### Step 2: Order Parts
+### Step 2: Order and Recover Parts
 The BOM is here:
 * [ODS Format](CR-2020 relay board LC-67183-1/BOM/BOM.ods)
 * [Excel Format](CR-2020 relay board LC-67183-1/BOM/BOM.xlsx)
 
-Carefully read and understand the notes in the BOM sheet. Check everything against your own CR-2020.
+Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. At a minimum, it's recommended to recover and reuse the factory TO-92 transistors, as long as they're functional.
 
 ### Step 3: Assemble
-Populate the board.
-
-[Reference materials](CR-2020 relay board LC-67183-1/reference/)
-
-### Step 4: Install
-Install the new PCB and check that everything works.
+[Reference materials](CR-2020 relay board LC-67183-1/reference/) include a board diagram (with several typos and mistakes from the service manual fixed), a clearly readable PDF of the silkscreen, and some examples of TO-220 heatsinks.
 
 ## License
 

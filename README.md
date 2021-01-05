@@ -39,7 +39,7 @@ Want to make one? Here's what to do:
 ### Step 1: Order PCB
 Recommend using JLCPCB (https://jlcpcb.com/).
 
-Prepared gerber files for this board: [Gerbers, v1.0](CR-2020 relay board LC-67183-1/BOM/BOM.ods)
+Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
 
 In the quote, specify 1.6mm PCB thickness (this should be the default) and **2oz copper weight**. Thicker copper is mandatory due to high current handled thru the relay.
 

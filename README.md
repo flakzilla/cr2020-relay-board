@@ -28,6 +28,10 @@ Jayfree also designed a replacement for the relay board. It's a modernized two-l
 
 In general, you should read this thread on AK before going ahead: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/
 
+### Acknowledgements
+
+The author would like to thank AudioKarma users avionic, niclasf, and jayfree. Owe each of you a beer or 5. :)
+
 ## How-To
 
 ### Summary
@@ -51,7 +55,7 @@ The BOM is here:
 Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. At a minimum, it's recommended to recover and reuse the factory TO-92 transistors, as long as they're functional.
 
 ### Step 3: Assemble
-Populate the board. [Reference materials](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1/reference) are provided, including a board diagram (with several typos and mistakes from the service manual fixed), a clearly readable PDF of the silkscreen markings, and some examples of TO-220 heatsinks that can be used for the power regulators.
+Populate the board. [Reference materials](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1/reference) are provided, including a board diagram (with several typos and mistakes from the service manual fixed), a clearly readable PDF of the silkscreen markings, and some examples of TO-220 heatsinks that can be used for TR712/715.
 
 That's it, happy listening!
 
@@ -60,8 +64,4 @@ That's it, happy listening!
 This project is released under the terms of the Creative Commons Attribution + Noncommercial + ShareAlike (BY-NC-SA) license. https://creativecommons.org/licenses/by-nc-sa/2.0/
 
 This project is distributed 'as-is' in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-## Acknowledgements
-
-The author would like to thank AudioKarma users avionic, niclasf, and jayfree. Owe each of you a beer or 5. :)
 

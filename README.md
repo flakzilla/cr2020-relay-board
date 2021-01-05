@@ -15,8 +15,8 @@ This project faithfully recreates the original board based on a sample LC-67183-
 Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical changes.
 
 Replica filter capacitor boards have been developed as well:
-1. niclasf's board: https://foogadgets.blogspot.com/2020/05/yamaha-cr2020-repair.html (To get one, contact niclasf on AK, or use his web store at https://www.facebook.com/foogadgets/)
-1. jayfree's board: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-4#post-14139270))
+1. [niclasf's board](https://foogadgets.blogspot.com/2020/05/yamaha-cr2020-repair.html) - to get one, contact niclasf on AK, or use his web store at https://www.facebook.com/foogadgets/
+1. [jayfree's board](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551) - ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-4#post-14139270))
 
 Jayfree also designed a replacement for the relay board. It's a modernized two-layer design instead of a reproduction of the original PCB: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-5#post-14284775))
 
@@ -39,7 +39,7 @@ Want to make one? Here's what to do:
 ### Step 1: Order PCB
 Recommend using JLCPCB (https://jlcpcb.com/).
 
-Prepared gerber files for this board: [Gerbers, CAD v1.0](CR-2020 relay board LC-67183-1/gerber zips/CR2020 relay board LC-67183-1 v1.0.zip)
+Prepared gerber files for this board: [Gerbers, v1.0]("CR-2020 relay board LC-67183-1/gerber zips/CR2020 relay board LC-67183-1 v1.0.zip")
 
 In the quote, specify 1.6mm PCB thickness (this should be the default) and **2oz copper weight**. Thicker copper is mandatory due to high current handled thru the relay.
 

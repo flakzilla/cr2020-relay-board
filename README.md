@@ -39,19 +39,21 @@ Want to make one? Here's what to do:
 ### Step 1: Order PCB
 Recommend using JLCPCB (https://jlcpcb.com/).
 
-Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
+Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/gerber%20zips/CR2020%20relay%20board%20LC-67183-1%20v1.0.zip)
 
 In the quote, specify 1.6mm PCB thickness (this should be the default) and **2oz copper weight**. Thicker copper is mandatory due to high current handled thru the relay.
 
 ### Step 2: Order and Recover Parts
 The BOM is here:
-* [ODS Format](CR-2020 relay board LC-67183-1/BOM/BOM.ods)
-* [Excel Format](CR-2020 relay board LC-67183-1/BOM/BOM.xlsx)
+* [ODS Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
+* [Excel Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.xlsx)
 
 Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. At a minimum, it's recommended to recover and reuse the factory TO-92 transistors, as long as they're functional.
 
 ### Step 3: Assemble
-[Reference materials](CR-2020 relay board LC-67183-1/reference/) include a board diagram (with several typos and mistakes from the service manual fixed), a clearly readable PDF of the silkscreen, and some examples of TO-220 heatsinks.
+Populate the board. [Reference materials](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1/reference) are provided, including a board diagram (with several typos and mistakes from the service manual fixed), a clearly readable PDF of the silkscreen markings, and some examples of TO-220 heatsinks that can be used for the power regulators.
+
+That's it, happy listening!
 
 ## License
 
@@ -61,5 +63,5 @@ This project is distributed 'as-is' in the hope that it will be useful, but WITH
 
 ## Acknowledgements
 
-The author would like to thank AudioKarma users avionic, niclasf, and jayfree. I owe each of you at least one beer. :)
+The author would like to thank AudioKarma users avionic, niclasf, and jayfree. Owe each of you a beer or 5. :)
 

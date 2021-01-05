@@ -52,7 +52,7 @@ The BOM is here:
 * [ODS Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
 * [Excel Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.xlsx)
 
-Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. At a minimum, it's recommended to recover and reuse the factory TO-92 transistors, as long as they're functional.
+Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. It's recommended to recover and reuse the factory TO-92 transistors, if they're functional.
 
 ### Step 3: Assemble
 Populate the board. [Reference materials](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1/reference) are provided, including a board diagram (with several typos and mistakes from the service manual fixed), a clearly readable PDF of the silkscreen markings, and some examples of TO-220 heatsinks that can be used for TR712/715.

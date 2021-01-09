@@ -46,7 +46,7 @@ Carefully read and understand the notes in the BOM sheet, and check everything a
 ### Step 3: Assemble
 Populate the board.
 
-[Reference materials](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1/reference):
+Reference materials:
 * [Board diagram](https://github.com/flakzilla/cr2020-relay-board/blob/main/CR-2020%20relay%20board%20LC-67183-1/reference/power%20supply%20c%20board%20diagram_fixed.png?raw=true) from the service manual, several typos and mistakes from the original manual have been fixed
 * [PDF of PCB markings](https://github.com/flakzilla/cr2020-relay-board/blob/main/CR-2020%20relay%20board%20LC-67183-1/reference/markings%20diagram%20v1.0.pdf) since the silkscreen text on the board might be too small to read clearly
 * [Some examples of TO-220 heatsinks](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1/reference/TO-220%20heatsink) that can be used for TR712/715

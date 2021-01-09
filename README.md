@@ -8,7 +8,7 @@ This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the po
 [Rear Detail](img/board_rear.jpg?raw=true)
 
 ## Summary
-This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM is provided, including modern part substitutions where original parts may not be available.
+This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM is provided, including modern part substitutions where original parts may not be available. The KiCAD project files are available for download from this repository.
 
 Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical changes.
 
@@ -21,16 +21,15 @@ Replica filter capacitor boards have been made as well:
 ### Caution & Advice
 * There are some small differences between model years, but as far as I can tell, this board should work for any model year. **Check your CR-2020's power supply carefully** before trying to use this reproduction board.
 * At least 2oz copper is required for the PCB.
-* The board's silkscreen includes very small text. JLCPCB will manufacture it, but the results aren't perfect. A PDF export of the silkscreen markings is included for reference.
-
-In general, you should probably read this thread first: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/
+* The board's silkscreen includes very small text which isn't always clearly readable. A PDF export of the silkscreen markings is included for reference.
+* Read this thread first: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/
 
 ### Acknowledgements
 The author would like to thank AudioKarma users avionic, niclasf, and jayfree. Owe each of you a beer or 3. :)
 
 ## How-To
 ### Step 1: Order PCB
-Recommend using JLCPCB (https://jlcpcb.com/).
+Recommend JLCPCB: https://jlcpcb.com/.
 
 Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/gerber%20zips/CR2020%20relay%20board%20LC-67183-1%20v1.0.zip)
 

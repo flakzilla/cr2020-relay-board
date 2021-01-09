@@ -43,8 +43,6 @@ BOM:
 Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. It's recommended to recover and reuse the factory TO-92 transistors, if they're working.
 
 ### Step 3: Assemble
-Populate the board.
-
 Reference materials:
 * [Board diagram](https://github.com/flakzilla/cr2020-relay-board/blob/main/CR-2020%20relay%20board%20LC-67183-1/reference/power%20supply%20c%20board%20diagram_fixed.png?raw=true) from the service manual, several typos and mistakes from the original manual have been fixed
 * [PDF of PCB markings](https://github.com/flakzilla/cr2020-relay-board/blob/main/CR-2020%20relay%20board%20LC-67183-1/reference/markings%20diagram%20v1.0.pdf) since the silkscreen text on the board might be too small to read clearly

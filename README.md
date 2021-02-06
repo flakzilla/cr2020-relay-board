@@ -1,5 +1,5 @@
 # Yamaha CR-2020 relay board LC-67183-1 CAD Reproduction
-This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the power supply of a Yamaha CR-2020 reciever.
+A modern CAD replica of the LC-67183-1 relay board from the power supply of a Yamaha CR-2020 reciever.
 
 ![Finished Board](img/board_populated.jpg?raw=true "Finished Board")
 
@@ -8,7 +8,7 @@ This is a modern CAD replica of the LC-67183-1 (relay) circuit board from the po
 [Rear Detail](img/board_rear.jpg?raw=true)
 
 ## Summary
-This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM is provided, including modern part substitutions where original parts may not be available. The KiCAD project files are available for download from this repository.
+This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM is provided, including modern part substitutions where original parts may not be available. The KiCAD project files are available for download from this repository ([link](CR-2020 relay board LC-67183-1)
 
 Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical changes.
 

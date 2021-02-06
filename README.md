@@ -8,9 +8,9 @@ A modern CAD replica of the LC-67183-1 relay board from the power supply of a Ya
 [Rear Detail](img/board_rear.jpg?raw=true)
 
 ## Summary
-This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM is provided, including modern part substitutions where original parts may not be available. The KiCAD project files are available for download from this repository ([link](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1)).
+This project faithfully recreates the original board based on a sample LC-67183-1 board from a 1976 North American market CR-2020. A complete BOM is provided, including modern part substitutions where original parts may not be available. The KiCAD project files are available for download from this repository ([direct link](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1)).
 
-Note that this replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical changes.
+The replica doesn't *perfectly* recreate original board - some liberties were taken to make the design more suitable for modern components, and to make some practical changes.
 
 AK user Jayfree also designed a replacement for the relay board, his is a modernized two-layer design instead of a reproduction of the original design. Available here: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-7#post-14397551 ([Photo](https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/page-5#post-14284775))
 
@@ -28,27 +28,25 @@ Replica filter capacitor boards have been made as well:
 The author would like to thank AudioKarma users avionic, niclasf, and jayfree. Owe each of you a beer or 3. :)
 
 ## How-To
-### Step 1: Order PCB
+### PCB
 Recommend JLCPCB: https://jlcpcb.com/.
 
 Prepared gerber files for this board: [Gerbers, v1.0](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/gerber%20zips/CR2020%20relay%20board%20LC-67183-1%20v1.0.zip)
 
-Specify 1.6mm PCB thickness (this should be the default) and **2oz copper weight**. Thicker copper is mandatory due to high current passing through the relay.
+Board requires 1.6mm PCB thickness and **2oz copper weight**. Thicker copper is mandatory due to high current passing through the relay.
 
-### Step 2: Get Parts
+### Parts
 BOM:
 * [ODS Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
 * [Excel Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.xlsx)
 
-Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. It's recommended to recover and reuse the factory TO-92 transistors, if they're working.
+Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. Plan to recover and reuse the factory TO-92 transistors.
 
-### Step 3: Assemble
+### Assembly
 Reference materials:
-* [Board diagram](https://github.com/flakzilla/cr2020-relay-board/blob/main/CR-2020%20relay%20board%20LC-67183-1/reference/power%20supply%20c%20board%20diagram_fixed.png?raw=true) from the service manual, several typos and mistakes from the original manual have been fixed
+* [Board diagram](https://github.com/flakzilla/cr2020-relay-board/blob/main/CR-2020%20relay%20board%20LC-67183-1/reference/power%20supply%20c%20board%20diagram_fixed.png?raw=true) from the service manual, typos and mistakes present in the original diagram have been fixed
 * [PDF of PCB markings](https://github.com/flakzilla/cr2020-relay-board/blob/main/CR-2020%20relay%20board%20LC-67183-1/reference/markings%20diagram%20v1.0.pdf) since the silkscreen text on the board might be too small to read clearly
 * [Some examples of TO-220 heatsinks](https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20relay%20board%20LC-67183-1/reference/TO-220%20heatsink) that can be used for TR712/715
-
-That's it, happy listening!
 
 ## License
 This project is released under the terms of the Creative Commons Attribution + Noncommercial + ShareAlike (BY-NC-SA) license. https://creativecommons.org/licenses/by-nc-sa/2.0/

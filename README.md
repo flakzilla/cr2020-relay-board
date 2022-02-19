@@ -24,6 +24,18 @@ Replica filter capacitor boards have been made as well:
 * The board's silkscreen includes very small text which isn't always clearly readable. A PDF export of the silkscreen markings is included for reference.
 * Read this thread first: https://www.audiokarma.org/forums/index.php?threads/cad-new-yamaha-cr-2020-capacitor-board.912553/
 
+### Reference information for working on a CR-2020
+A collection of reference information useful for working on the CR-2020 is included in this repo. The collection contains:
+* Recap BOMs for all CR-2020 PCBs
+* Broken-out PCB diagrams with some corrections made for misprints and errors in the original diagrams
+* Datasheets for many of the original transistors and diodes
+* Service Manual and power supply service bulletins
+* High resolution copies of the block diagram, schematic diagram, and wiring diagram
+
+Most of this information can be found on the Internet already, but hopefully this collection will save time for those working on a CR-2020.
+
+https://github.com/flakzilla/cr2020-relay-board/tree/main/CR-2020%20reference%20information
+
 ### Acknowledgements
 The author would like to thank AudioKarma users avionic, niclasf, and jayfree. Owe each of you a beer or 3. :)
 

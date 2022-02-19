@@ -1,0 +1,5 @@
+Relay board: https://github.com/flakzilla/cr2020-relay-board
+
+Optional riser for relay board: https://github.com/flakzilla/cr2020-resistor-mod
+
+Separate PCB for TRIAC mod: https://github.com/flakzilla/cr2020-TRIAC-mod

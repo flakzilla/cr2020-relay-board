@@ -52,7 +52,7 @@ BOM:
 * [ODS Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.ods)
 * [Excel Format](https://github.com/flakzilla/cr2020-relay-board/raw/main/CR-2020%20relay%20board%20LC-67183-1/BOM/BOM.xlsx)
 
-Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. Plan to recover and reuse the factory TO-92 transistors.
+Carefully read and understand the notes in the BOM sheet, and check everything against your own CR-2020. Plan to recover and reuse the factory TO-92 transistors. Note that this BOM is not compatible with Jayfree's modernized relay board (see the Summary section above).
 
 ### Assembly
 Reference materials:
